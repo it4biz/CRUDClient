@@ -22,7 +22,7 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "cadastroCod"
+      "value": "registerCod"
      },
      {
       "name": "parameter",
@@ -57,7 +57,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:txt_codigo}"
+      "value": "${h:txt_cod}"
      },
      {
       "name": "executeAtStart",
@@ -72,7 +72,7 @@
      {
       "name": "postExecution",
       "type": "JavaScript",
-      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o código');\r\n} "
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Cod');\r\n} "
      },
      {
       "name": "preChange",
@@ -101,12 +101,12 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "cadastroNome"
+      "value": "registerName"
      },
      {
       "name": "parameter",
       "type": "Parameter",
-      "value": "${p:cadNome}"
+      "value": "${p:cadName}"
      },
      {
       "name": "listeners",
@@ -136,7 +136,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:txt_nome}"
+      "value": "${h:txt_name}"
      },
      {
       "name": "executeAtStart",
@@ -151,7 +151,7 @@
      {
       "name": "postExecution",
       "type": "JavaScript",
-      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o nome');\r\n} "
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Name');\r\n} "
      },
      {
       "name": "preChange",
@@ -180,12 +180,12 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "cadastroEmpresa"
+      "value": "registerCompany"
      },
      {
       "name": "parameter",
       "type": "Parameter",
-      "value": "${p:cadEmpresa}"
+      "value": "${p:cadCompany}"
      },
      {
       "name": "listeners",
@@ -215,7 +215,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:txt_empresa}"
+      "value": "${h:txt_company}"
      },
      {
       "name": "executeAtStart",
@@ -230,7 +230,7 @@
      {
       "name": "postExecution",
       "type": "JavaScript",
-      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite a empresa');\r\n} "
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Company');\r\n} "
      },
      {
       "name": "preChange",
@@ -259,12 +259,12 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "cadastroPais"
+      "value": "registerCountry"
      },
      {
       "name": "parameter",
       "type": "Parameter",
-      "value": "${p:cadPais}"
+      "value": "${p:cadCountry}"
      },
      {
       "name": "listeners",
@@ -294,7 +294,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:txt_pais}"
+      "value": "${h:txt_country}"
      },
      {
       "name": "executeAtStart",
@@ -309,7 +309,7 @@
      {
       "name": "postExecution",
       "type": "JavaScript",
-      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o Pais');\r\n} "
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Country');\r\n} "
      },
      {
       "name": "preChange",
@@ -338,7 +338,7 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "atualizarCod"
+      "value": "updateCod"
      },
      {
       "name": "parameter",
@@ -373,7 +373,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:txt_codigo_up}"
+      "value": "${h:txt_cod_up}"
      },
      {
       "name": "executeAtStart",
@@ -388,7 +388,7 @@
      {
       "name": "postExecution",
       "type": "JavaScript",
-      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o código');\r\n} "
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Cod');\r\n} "
      },
      {
       "name": "preChange",
@@ -417,12 +417,12 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "atualizarNome"
+      "value": "updateName"
      },
      {
       "name": "parameter",
       "type": "Parameter",
-      "value": "${p:upNome}"
+      "value": "${p:upName}"
      },
      {
       "name": "listeners",
@@ -452,7 +452,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:txt_nome_up}"
+      "value": "${h:txt_name_up}"
      },
      {
       "name": "executeAtStart",
@@ -467,7 +467,7 @@
      {
       "name": "postExecution",
       "type": "JavaScript",
-      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o nome');\r\n} "
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Name');\r\n} "
      },
      {
       "name": "preChange",
@@ -496,12 +496,12 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "atualizarEmpresa"
+      "value": "updateCompany"
      },
      {
       "name": "parameter",
       "type": "Parameter",
-      "value": "${p:upEmpresa}"
+      "value": "${p:upCompany}"
      },
      {
       "name": "listeners",
@@ -531,7 +531,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:txt_empresa_up}"
+      "value": "${h:txt_company_up}"
      },
      {
       "name": "executeAtStart",
@@ -546,7 +546,7 @@
      {
       "name": "postExecution",
       "type": "JavaScript",
-      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite a empresa');\r\n} "
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Company');\r\n} "
      },
      {
       "name": "preChange",
@@ -575,12 +575,12 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "atualizarPais"
+      "value": "updateCountry"
      },
      {
       "name": "parameter",
       "type": "Parameter",
-      "value": "${p:upPais}"
+      "value": "${p:upCountry}"
      },
      {
       "name": "listeners",
@@ -610,7 +610,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:txt_pais_up}"
+      "value": "${h:txt_country_up}"
      },
      {
       "name": "executeAtStart",
@@ -625,7 +625,7 @@
      {
       "name": "postExecution",
       "type": "JavaScript",
-      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o país');\r\n} "
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Country');\r\n} "
      },
      {
       "name": "preChange",
@@ -654,7 +654,7 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "deletarCadastro"
+      "value": "deleteRegister"
      },
      {
       "name": "parameter",
@@ -689,7 +689,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:txt_codigo_del}"
+      "value": "${h:txt_cod_del}"
      },
      {
       "name": "executeAtStart",
@@ -704,7 +704,7 @@
      {
       "name": "postExecution",
       "type": "JavaScript",
-      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o código');\r\n} "
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Cod');\r\n} "
      },
      {
       "name": "preChange",
@@ -747,22 +747,22 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "btnCadastro"
+      "value": "btnRegister"
      },
      {
       "name": "label",
       "type": "String",
-      "value": "Cadastrar"
+      "value": "Register"
      },
      {
       "name": "listeners",
       "type": "Listeners",
-      "value": "[\"${p:cadCod}\",\"${p:cadNome}\",\"${p:cadEmpresa}\",\"${p:cadPais}\"]"
+      "value": "[\"${p:cadCod}\",\"${p:cadName}\",\"${p:cadCompany}\",\"${p:cadCountry}\"]"
      },
      {
       "name": "actionParameters",
       "type": "ValuesArray",
-      "value": "[[\"cadCod\",\"cadCod\"],[\"cadNome\",\"cadNome\"],[\"cadEmpresa\",\"cadEmpresa\"],[\"cadPais\",\"cadPais\"]]"
+      "value": "[[\"cadCod\",\"cadCod\"],[\"cadName\",\"cadName\"],[\"cadCompany\",\"cadCompany\"],[\"cadCountry\",\"cadCountry\"]]"
      },
      {
       "name": "expression",
@@ -777,12 +777,12 @@
      {
       "name": "successCallback",
       "type": "JavaScript",
-      "value": "function (){\n    alert('Dados cadastrados');\n    } "
+      "value": "function (){\n    alert('Successfully registered');\n    } "
      },
      {
       "name": "dataSource",
       "type": "Datasource",
-      "value": "kettlejob"
+      "value": "jobRegister"
      },
      {
       "name": "priority",
@@ -802,7 +802,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:btn_casdastro}"
+      "value": "${h:btn_register}"
      },
      {
       "name": "executeAtStart",
@@ -836,22 +836,22 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "btnAtualizar"
+      "value": "btnUpdate"
      },
      {
       "name": "label",
       "type": "String",
-      "value": "Atualizar"
+      "value": "Update"
      },
      {
       "name": "listeners",
       "type": "Listeners",
-      "value": "[\"${p:upCod}\",\"${p:upNome}\",\"${p:upEmpresa}\",\"${p:upPais}\"]"
+      "value": "[\"${p:upCod}\",\"${p:upName}\",\"${p:upCompany}\",\"${p:upCountry}\"]"
      },
      {
       "name": "actionParameters",
       "type": "ValuesArray",
-      "value": "[[\"upCod\",\"upCod\"],[\"upNome\",\"upNome\"],[\"upEmpresa\",\"upEmpresa\"],[\"upPais\",\"upPais\"]]"
+      "value": "[[\"upCod\",\"upCod\"],[\"upName\",\"upName\"],[\"upCompany\",\"upCompany\"],[\"upCountry\",\"upCountry\"]]"
      },
      {
       "name": "expression",
@@ -866,12 +866,12 @@
      {
       "name": "successCallback",
       "type": "JavaScript",
-      "value": "function (){\r\n    alert('Dados atualizados!');\r\n    } "
+      "value": "function (){\r\n    alert('Refresher Successfully');\r\n    } "
      },
      {
       "name": "dataSource",
       "type": "Datasource",
-      "value": "jobAtualizar"
+      "value": "jobUpdate"
      },
      {
       "name": "priority",
@@ -891,7 +891,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:btn_atualizar_up}"
+      "value": "${h:btn_update_up}"
      },
      {
       "name": "executeAtStart",
@@ -925,12 +925,12 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "btnDeletar"
+      "value": "btnDelete"
      },
      {
       "name": "label",
       "type": "String",
-      "value": "Deletar Cadastro"
+      "value": "Delete"
      },
      {
       "name": "listeners",
@@ -955,12 +955,12 @@
      {
       "name": "successCallback",
       "type": "JavaScript",
-      "value": "function (){\r\n    alert('Dados deletados!');\r\n    } "
+      "value": "function (){\r\n    alert('deleted data Sucess!');\r\n    } "
      },
      {
       "name": "dataSource",
       "type": "Datasource",
-      "value": "jobDeletar"
+      "value": "jobDelete"
      },
      {
       "name": "priority",
@@ -980,7 +980,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:btn_deletar_del}"
+      "value": "${h:btn_delete_del}"
      },
      {
       "name": "executeAtStart",
@@ -1014,7 +1014,7 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "tabelaBuscar"
+      "value": "tableSearch"
      },
      {
       "name": "expandContainerObject",
@@ -1044,7 +1044,7 @@
      {
       "name": "colHeaders",
       "type": "ColHeadersArray",
-      "value": "[\"Código\",\"Nome\",\"Empresa\",\"País\"]"
+      "value": "[\"Cod\",\"Name\",\"Company\",\"Country\"]"
      },
      {
       "name": "colSortable",
@@ -1154,7 +1154,7 @@
      {
       "name": "htmlObject",
       "type": "HtmlObject",
-      "value": "${h:tabela}"
+      "value": "${h:table}"
      },
      {
       "name": "executeAtStart",
@@ -1266,7 +1266,7 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "cadNome"
+      "value": "cadName"
      },
      {
       "name": "propertyValue",
@@ -1300,7 +1300,7 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "cadEmpresa"
+      "value": "cadCompany"
      },
      {
       "name": "propertyValue",
@@ -1334,7 +1334,7 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "cadPais"
+      "value": "cadCountry"
      },
      {
       "name": "propertyValue",
@@ -1402,7 +1402,7 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "upNome"
+      "value": "upName"
      },
      {
       "name": "propertyValue",
@@ -1436,7 +1436,7 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "upEmpresa"
+      "value": "upCompany"
      },
      {
       "name": "propertyValue",
@@ -1470,7 +1470,7 @@
      {
       "name": "name",
       "type": "Id",
-      "value": "upPais"
+      "value": "upCountry"
      },
      {
       "name": "propertyValue",
@@ -1536,91 +1536,6 @@
  "datasources": {
   "rows": [
    {
-    "id": "SQL",
-    "name": "SQL Queries",
-    "parent": "UnIqEiD",
-    "properties": [
-     {
-      "name": "Group",
-      "type": "Label",
-      "value": "SQL Queries"
-     }
-    ],
-    "type": "Label",
-    "typeDesc": "<i>Group</i>"
-   },
-   {
-    "id": "0a56c773-c21a-33cb-c9aa-716d1c31731a",
-    "meta": "CDA",
-    "meta_conntype": "sql.jndi",
-    "meta_datype": "sql",
-    "parent": "SQL",
-    "properties": [
-     {
-      "name": "name",
-      "type": "Id",
-      "value": "dummy"
-     },
-     {
-      "name": "access",
-      "type": "Access",
-      "value": "public"
-     },
-     {
-      "name": "jndi",
-      "type": "Jndi",
-      "value": ""
-     },
-     {
-      "name": "query",
-      "type": "SqlQuery",
-      "value": ""
-     },
-     {
-      "name": "parameters",
-      "type": "CdaParameters",
-      "value": "[]"
-     },
-     {
-      "name": "cdacalculatedcolumns",
-      "type": "CdaCalculatedColumnsArray",
-      "value": "[]"
-     },
-     {
-      "name": "cdacolumns",
-      "type": "CdaColumnsArray",
-      "value": "[]"
-     },
-     {
-      "name": "output",
-      "type": "IndexArray",
-      "value": "[]"
-     },
-     {
-      "name": "outputMode",
-      "type": "OutputMode",
-      "value": "include"
-     },
-     {
-      "name": "cacheKeys",
-      "type": "CacheKeysValues",
-      "value": "[]"
-     },
-     {
-      "name": "cacheDuration",
-      "type": "Integer",
-      "value": 3600
-     },
-     {
-      "name": "cache",
-      "type": "Boolean",
-      "value": "true"
-     }
-    ],
-    "type": "Componentssql_sqlJndi",
-    "typeDesc": "sql over sqlJndi"
-   },
-   {
     "id": "CRUDCLIENT_CPKENDPOINTS",
     "name": "CRUDCLIENT Endpoints",
     "parent": "UnIqEiD",
@@ -1633,33 +1548,6 @@
     ],
     "type": "Label",
     "typeDesc": "<i>Group</i>"
-   },
-   {
-    "id": "77ee4a04-6615-996c-c2ac-69f21ace128a",
-    "meta": "CPK",
-    "meta_endpoint": "kettlejobCrud",
-    "meta_pluginId": "CRUDClient",
-    "parent": "CRUDCLIENT_CPKENDPOINTS",
-    "properties": [
-     {
-      "name": "name",
-      "type": "Id",
-      "value": "kettlejob"
-     },
-     {
-      "name": "stepName",
-      "type": "String",
-      "value": "OUTPUT"
-     },
-     {
-      "name": "kettleOutput",
-      "type": "kettleOutputCustom",
-      "value": "Inferred"
-     }
-    ],
-    "rowName": "kettlejobCrud Endpoint",
-    "type": "ComponentsCRUDClient_kettlejobCrud_CPKENDPOINT",
-    "typeDesc": "kettlejobCrud Endpoint"
    },
    {
     "id": "daa44117-3408-c5c6-ebea-6c44048e0591",
@@ -1686,7 +1574,7 @@
     ],
     "rowName": "kettlejobAtualizar Endpoint",
     "type": "ComponentsCRUDClient_kettlejobAtualizar_CPKENDPOINT",
-    "typeDesc": "kettlejobAtualizar Endpoint"
+    "typeDesc": "? ComponentsCRUDClient_kettlejobAtualizar_CPKENDPOINT"
    },
    {
     "id": "b0933016-4dd0-67c2-cfd6-177fe1077951",
@@ -1743,16 +1631,16 @@
     "typeDesc": "kettleTransBuscar Endpoint"
    },
    {
-    "id": "28cd1c8b-1a5b-eaa8-c099-3bfe3f21f345",
+    "id": "aa86ca04-177f-273f-3d3e-1b4faf10b747",
     "meta": "CPK",
-    "meta_endpoint": "kettleJobBuscar",
+    "meta_endpoint": "jobRegister",
     "meta_pluginId": "CRUDClient",
     "parent": "CRUDCLIENT_CPKENDPOINTS",
     "properties": [
      {
       "name": "name",
       "type": "Id",
-      "value": "jobBuscar"
+      "value": "jobRegister"
      },
      {
       "name": "stepName",
@@ -1765,9 +1653,63 @@
       "value": "Inferred"
      }
     ],
-    "rowName": "kettleJobBuscar Endpoint",
-    "type": "ComponentsCRUDClient_kettleJobBuscar_CPKENDPOINT",
-    "typeDesc": "kettleJobBuscar Endpoint"
+    "rowName": "jobRegister Endpoint",
+    "type": "ComponentsCRUDClient_jobRegister_CPKENDPOINT",
+    "typeDesc": "jobRegister Endpoint"
+   },
+   {
+    "id": "23ca212f-d440-1feb-5778-7b2233123b9e",
+    "meta": "CPK",
+    "meta_endpoint": "jobUpdate",
+    "meta_pluginId": "CRUDClient",
+    "parent": "CRUDCLIENT_CPKENDPOINTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "jobUpdate"
+     },
+     {
+      "name": "stepName",
+      "type": "String",
+      "value": "OUTPUT"
+     },
+     {
+      "name": "kettleOutput",
+      "type": "kettleOutputCustom",
+      "value": "Inferred"
+     }
+    ],
+    "rowName": "jobUpdate Endpoint",
+    "type": "ComponentsCRUDClient_jobUpdate_CPKENDPOINT",
+    "typeDesc": "jobUpdate Endpoint"
+   },
+   {
+    "id": "9decadbe-381b-3074-6284-e4bdb87576d6",
+    "meta": "CPK",
+    "meta_endpoint": "jobDelete",
+    "meta_pluginId": "CRUDClient",
+    "parent": "CRUDCLIENT_CPKENDPOINTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "jobDelete"
+     },
+     {
+      "name": "stepName",
+      "type": "String",
+      "value": "OUTPUT"
+     },
+     {
+      "name": "kettleOutput",
+      "type": "kettleOutputCustom",
+      "value": "Inferred"
+     }
+    ],
+    "rowName": "jobDelete Endpoint",
+    "type": "ComponentsCRUDClient_jobDelete_CPKENDPOINT",
+    "typeDesc": "jobDelete Endpoint"
    }
   ]
  },
@@ -1786,7 +1728,7 @@
      {
       "name": "resourceCode",
       "type": "Resource",
-      "value": ".space{\n    margin-top:20px;    \n} \n#btn_casdastro{\n    margin-top:20px;\n    margin-left:35%;\n} \n#btn_atualizar_up{\n    margin-top:20px;\n    margin-left:35%;\n} \n#btn_deletar_del{\n    margin-top:20px;\n    margin-left:35%;\n} \n\n#dCadastro{\n    width:50%;\n    margin-left:25%;\n} \n#dAtualizar{\n    width:50%;\n    margin-left:25%;\n} \n#dDeletar{\n    width:50%;\n    margin-left:25%;\n} \n#dBuscar{\n    padding-top:20px;\n} \n\n "
+      "value": ".space{\n    margin-top:20px;    \n} \n#btn_register{\n    margin-top:20px;\n    margin-left:35%;\n} \n#btn_update_up{\n    margin-top:20px;\n    margin-left:35%;\n} \n#btn_delete_del{\n    margin-top:20px;\n    margin-left:35%;\n} \n\n#dRegister{\n    width:50%;\n    margin-left:25%;\n} \n#dUpdate{\n    width:50%;\n    margin-left:25%;\n} \n#dDelete{\n    width:50%;\n    margin-left:25%;\n} \n#dSearch{\n    padding-top:20px;\n} \n\n "
      },
      {
       "name": "resourceType",
@@ -1809,7 +1751,7 @@
      {
       "name": "resourceCode",
       "type": "Resource",
-      "value": "window.onload = function (){\n    document.getElementById('dCadastro').style.display = \"none\";\n    document.getElementById('dAtualizar').style.display = \"none\";\n    document.getElementById('dDeletar').style.display = \"none\";\n    document.getElementById('dBuscar').style.display = \"none\";\n} \n\n\nfunction openForm (pId){\n\n    if (pId === \"cadastro\"){\n        document.getElementById('dCadastro').style.display = \"block\";\n        document.getElementById('dAtualizar').style.display = \"none\";\n        document.getElementById('dDeletar').style.display = \"none\";\n        document.getElementById('dBuscar').style.display = \"none\";\n    } else if (pId === \"atualizar\"){\n        document.getElementById('dCadastro').style.display = \"none\";\n        document.getElementById('dAtualizar').style.display = \"block\";\n        document.getElementById('dDeletar').style.display = \"none\";\n        document.getElementById('dBuscar').style.display = \"none\";\n    }else  if (pId === \"deletar\"){\n        document.getElementById('dCadastro').style.display = \"none\";\n        document.getElementById('dAtualizar').style.display = \"none\";\n        document.getElementById('dDeletar').style.display = \"block\";\n        document.getElementById('dBuscar').style.display = \"none\";\n    }else{\n        document.getElementById('dCadastro').style.display = \"none\";\n        document.getElementById('dAtualizar').style.display = \"none\";\n        document.getElementById('dDeletar').style.display = \"none\";\n        document.getElementById('dBuscar').style.display = \"block\";\n    }\n} "
+      "value": "window.onload = function (){\n    document.getElementById('dRegister').style.display = \"none\";\n    document.getElementById('dUpdate').style.display = \"none\";\n    document.getElementById('dDelete').style.display = \"none\";\n    document.getElementById('dSearch').style.display = \"none\";\n} \n\n\nfunction openForm (pId){\n\n    if (pId === \"register\"){\n        document.getElementById('dRegister').style.display = \"block\";\n        document.getElementById('dUpdate').style.display = \"none\";\n        document.getElementById('dDelete').style.display = \"none\";\n        document.getElementById('dSearch').style.display = \"none\";\n    } else if (pId === \"update\"){\n        document.getElementById('dRegister').style.display = \"none\";\n        document.getElementById('dUpdate').style.display = \"block\";\n        document.getElementById('dDelete').style.display = \"none\";\n        document.getElementById('dSearch').style.display = \"none\";\n    }else  if (pId === \"delete\"){\n        document.getElementById('dRegister').style.display = \"none\";\n        document.getElementById('dUpdate').style.display = \"none\";\n        document.getElementById('dDelete').style.display = \"block\";\n        document.getElementById('dSearch').style.display = \"none\";\n    }else{\n        document.getElementById('dRegister').style.display = \"none\";\n        document.getElementById('dUpdate').style.display = \"none\";\n        document.getElementById('dDelete').style.display = \"none\";\n        document.getElementById('dSearch').style.display = \"block\";\n    }\n} "
      },
      {
       "name": "resourceType",
@@ -1943,7 +1885,7 @@
      {
       "name": "html",
       "type": "Html",
-      "value": "\r\n<img src=\"https://d6xfpzo6h49n1.cloudfront.net/X2slWZel8sODnM79hl5WhR3Jmv8=/fit-in/0x60/https://d2vvqscadf4c1f.cloudfront.net/qVTOaqAQmu17M13ZDZhA_logoit4biz-google-play_512x512.png\">\r\n<div class=\"page-header col-md-12\">\r\n  <h1>Plugin Rotina Cliente <small>crud de clientes</small></h1>\r\n</div>\r\n\r\n<div class=\"alert alert-info col-md-12\" role=\"alert\">\r\n <h6>Selecione um opção abaixo:</h3>\r\n</div> "
+      "value": "\r\n<img src=\"https://d6xfpzo6h49n1.cloudfront.net/X2slWZel8sODnM79hl5WhR3Jmv8=/fit-in/0x60/https://d2vvqscadf4c1f.cloudfront.net/qVTOaqAQmu17M13ZDZhA_logoit4biz-google-play_512x512.png\">\r\n<div class=\"page-header col-md-12\">\r\n  <h1>Plugin IT4biz Global - Client </h1>\r\n</div>\r\n\r\n<div class=\"alert alert-info col-md-12\" role=\"alert\">\r\n <h6>Select an option:</h3>\r\n</div> "
      },
      {
       "name": "fontSize",
@@ -2100,7 +2042,7 @@
      {
       "name": "html",
       "type": "Html",
-      "value": "<div class=\"btn-group btn-group-justified\" role=\"group\" aria-label=\"...\">\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"cadastrar\" onclick=\"openForm('cadastro');\">Cadastrar Cliente</button>\r\n    </div>\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"atualizar\" onclick=\"openForm('atualizar');\">Atualiza Cadastro</button>\r\n    </div>\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"deletar\" onclick=\"openForm('deletar');\">Deletar Cadastro</button>\r\n    </div>\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"buscar\" onclick=\"openForm('buscar');\">Buscar Cliente</button>\r\n    </div>\r\n </div> "
+      "value": "<div class=\"btn-group btn-group-justified\" role=\"group\" aria-label=\"...\">\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"register\" onclick=\"openForm('register');\">Register</button>\r\n    </div>\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"update\" onclick=\"openForm('update');\">Update Data</button>\r\n    </div>\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"delete\" onclick=\"openForm('delete');\">Delete Client</button>\r\n    </div>\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"search\" onclick=\"openForm('search');\">Search</button>\r\n    </div>\r\n </div> "
      },
      {
       "name": "fontSize",
@@ -2196,7 +2138,7 @@
      {
       "name": "html",
       "type": "Html",
-      "value": "<div id=\"dCadastro\">\n    <div id=\"txt_codigo\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_nome\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_empresa\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_pais\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"btn_casdastro\" class=\"center col-md-12\"></div>\n</div>\n\n\n<div id=\"dAtualizar\">\n    <div id=\"txt_codigo_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_nome_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_empresa_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_pais_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"btn_atualizar_up\" class=\"center col-md-12\"></div>\n</div>\n\n\n<div id=\"dDeletar\">\n    <div id=\"txt_codigo_del\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"btn_deletar_del\" class=\"center col-md-12\"></div>\n</div>\n    \n    \n<div id=\"dBuscar\">\n    <div id=\"tabela\"></div>  \n</div>\n\n\n "
+      "value": "<div id=\"dRegister\">\n    <div id=\"txt_cod\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_name\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_company\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_country\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"btn_register\" class=\"center col-md-12\"></div>\n</div>\n\n\n<div id=\"dUpdate\">\n    <div id=\"txt_cod_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_name_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_company_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_country_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"btn_update_up\" class=\"center col-md-12\"></div>\n</div>\n\n\n<div id=\"dDelete\">\n    <div id=\"txt_cod_del\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"btn_delete_del\" class=\"center col-md-12\"></div>\n</div>\n    \n    \n<div id=\"dSearch\">\n    <div id=\"table\"></div>  \n</div>\n\n\n "
      },
      {
       "name": "fontSize",
