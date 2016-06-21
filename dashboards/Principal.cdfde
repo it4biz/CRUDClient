@@ -1,0 +1,2284 @@
+{
+ "components": {
+  "rows": [
+   {
+    "id": "SELECTORS",
+    "name": "Selects",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "type": "Label",
+      "value": "Selects"
+     }
+    ],
+    "type": "Label",
+    "typeDesc": "<i>Group</i>"
+   },
+   {
+    "id": "6d76a77c-9834-4761-4bae-618394b5eb28",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "cadastroCod"
+     },
+     {
+      "name": "parameter",
+      "type": "Parameter",
+      "value": "${p:cadCod}"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[]"
+     },
+     {
+      "name": "maxLength",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "size",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:txt_codigo}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o código');\r\n} "
+     },
+     {
+      "name": "preChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "TextInput Component",
+    "type": "ComponentstextInput",
+    "typeDesc": "Text input Component"
+   },
+   {
+    "id": "a658c15a-dbf3-63b4-a767-6794b1d540b8",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "cadastroNome"
+     },
+     {
+      "name": "parameter",
+      "type": "Parameter",
+      "value": "${p:cadNome}"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[]"
+     },
+     {
+      "name": "maxLength",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "size",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:txt_nome}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o nome');\r\n} "
+     },
+     {
+      "name": "preChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "TextInput Component",
+    "type": "ComponentstextInput",
+    "typeDesc": "Text input Component"
+   },
+   {
+    "id": "5ed9e1ed-8e87-4269-8ab9-a14b588481ad",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "cadastroEmpresa"
+     },
+     {
+      "name": "parameter",
+      "type": "Parameter",
+      "value": "${p:cadEmpresa}"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[]"
+     },
+     {
+      "name": "maxLength",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "size",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:txt_empresa}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite a empresa');\r\n} "
+     },
+     {
+      "name": "preChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "TextInput Component",
+    "type": "ComponentstextInput",
+    "typeDesc": "Text input Component"
+   },
+   {
+    "id": "637b9104-30d5-8968-0664-c8fe1303192f",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "cadastroPais"
+     },
+     {
+      "name": "parameter",
+      "type": "Parameter",
+      "value": "${p:cadPais}"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[]"
+     },
+     {
+      "name": "maxLength",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "size",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:txt_pais}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o Pais');\r\n} "
+     },
+     {
+      "name": "preChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "TextInput Component",
+    "type": "ComponentstextInput",
+    "typeDesc": "Text input Component"
+   },
+   {
+    "id": "af45f2a6-5ebf-3da5-d684-a839611063c7",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "atualizarCod"
+     },
+     {
+      "name": "parameter",
+      "type": "Parameter",
+      "value": "${p:upCod}"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[]"
+     },
+     {
+      "name": "maxLength",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "size",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:txt_codigo_up}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o código');\r\n} "
+     },
+     {
+      "name": "preChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "TextInput Component",
+    "type": "ComponentstextInput",
+    "typeDesc": "Text input Component"
+   },
+   {
+    "id": "f41bb48b-7c13-839a-dccd-2446594e83e0",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "atualizarNome"
+     },
+     {
+      "name": "parameter",
+      "type": "Parameter",
+      "value": "${p:upNome}"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[]"
+     },
+     {
+      "name": "maxLength",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "size",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:txt_nome_up}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o nome');\r\n} "
+     },
+     {
+      "name": "preChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "TextInput Component",
+    "type": "ComponentstextInput",
+    "typeDesc": "Text input Component"
+   },
+   {
+    "id": "b741fa4d-09bf-ffce-1735-5aa8e79f86eb",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "atualizarEmpresa"
+     },
+     {
+      "name": "parameter",
+      "type": "Parameter",
+      "value": "${p:upEmpresa}"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[]"
+     },
+     {
+      "name": "maxLength",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "size",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:txt_empresa_up}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite a empresa');\r\n} "
+     },
+     {
+      "name": "preChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "TextInput Component",
+    "type": "ComponentstextInput",
+    "typeDesc": "Text input Component"
+   },
+   {
+    "id": "7fcfee67-7bff-dfc1-fded-fa0c08e94bfb",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "atualizarPais"
+     },
+     {
+      "name": "parameter",
+      "type": "Parameter",
+      "value": "${p:upPais}"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[]"
+     },
+     {
+      "name": "maxLength",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "size",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:txt_pais_up}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o país');\r\n} "
+     },
+     {
+      "name": "preChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "TextInput Component",
+    "type": "ComponentstextInput",
+    "typeDesc": "Text input Component"
+   },
+   {
+    "id": "80f4d5cb-d371-9f79-d4f3-b73f403e9f8f",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "deletarCadastro"
+     },
+     {
+      "name": "parameter",
+      "type": "Parameter",
+      "value": "${p:delCod}"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[]"
+     },
+     {
+      "name": "maxLength",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "size",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:txt_codigo_del}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": "function f() {\r\n $('#' + this.name).addClass('form-control');\r\n $('#' + this.name).removeAttr('value');\r\n $('#' + this.name).attr('placeholder','Digite o código');\r\n} "
+     },
+     {
+      "name": "preChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "TextInput Component",
+    "type": "ComponentstextInput",
+    "typeDesc": "Text input Component"
+   },
+   {
+    "id": "OTHERCOMPONENTS",
+    "name": "Others",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "type": "Label",
+      "value": "Others"
+     }
+    ],
+    "type": "Label",
+    "typeDesc": "<i>Group</i>"
+   },
+   {
+    "id": "b79eaaec-80bd-79cd-7e85-c9af6dd3b637",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "btnCadastro"
+     },
+     {
+      "name": "label",
+      "type": "String",
+      "value": "Cadastrar"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[\"${p:cadCod}\",\"${p:cadNome}\",\"${p:cadEmpresa}\",\"${p:cadPais}\"]"
+     },
+     {
+      "name": "actionParameters",
+      "type": "ValuesArray",
+      "value": "[[\"cadCod\",\"cadCod\"],[\"cadNome\",\"cadNome\"],[\"cadEmpresa\",\"cadEmpresa\"],[\"cadPais\",\"cadPais\"]]"
+     },
+     {
+      "name": "expression",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "failureCallback",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "successCallback",
+      "type": "JavaScript",
+      "value": "function (){\n    alert('Dados cadastrados');\n    } "
+     },
+     {
+      "name": "dataSource",
+      "type": "Datasource",
+      "value": "kettlejob"
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "buttonStyle",
+      "type": "TableStyle",
+      "value": "themeroller"
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:btn_casdastro}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "Button Component",
+    "type": "ComponentsbuttonComponent",
+    "typeDesc": "Button Component"
+   },
+   {
+    "id": "0e20d886-7829-56c0-421e-3418d1591563",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "btnAtualizar"
+     },
+     {
+      "name": "label",
+      "type": "String",
+      "value": "Atualizar"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[\"${p:upCod}\",\"${p:upNome}\",\"${p:upEmpresa}\",\"${p:upPais}\"]"
+     },
+     {
+      "name": "actionParameters",
+      "type": "ValuesArray",
+      "value": "[[\"upCod\",\"upCod\"],[\"upNome\",\"upNome\"],[\"upEmpresa\",\"upEmpresa\"],[\"upPais\",\"upPais\"]]"
+     },
+     {
+      "name": "expression",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "failureCallback",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "successCallback",
+      "type": "JavaScript",
+      "value": "function (){\r\n    alert('Dados atualizados!');\r\n    } "
+     },
+     {
+      "name": "dataSource",
+      "type": "Datasource",
+      "value": "jobAtualizar"
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "buttonStyle",
+      "type": "TableStyle",
+      "value": "themeroller"
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:btn_atualizar_up}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "Button Component",
+    "type": "ComponentsbuttonComponent",
+    "typeDesc": "Button Component"
+   },
+   {
+    "id": "915697d6-246d-9401-c356-9391e0f8ef10",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "btnDeletar"
+     },
+     {
+      "name": "label",
+      "type": "String",
+      "value": "Deletar Cadastro"
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[\"${p:delCod}\"]"
+     },
+     {
+      "name": "actionParameters",
+      "type": "ValuesArray",
+      "value": "[[\"delCod\",\"delCod\"]]"
+     },
+     {
+      "name": "expression",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "failureCallback",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "successCallback",
+      "type": "JavaScript",
+      "value": "function (){\r\n    alert('Dados deletados!');\r\n    } "
+     },
+     {
+      "name": "dataSource",
+      "type": "Datasource",
+      "value": "jobDeletar"
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "buttonStyle",
+      "type": "TableStyle",
+      "value": "themeroller"
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:btn_deletar_del}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     }
+    ],
+    "rowName": "Button Component",
+    "type": "ComponentsbuttonComponent",
+    "typeDesc": "Button Component"
+   },
+   {
+    "id": "6fb93ceb-08a5-c062-175e-ba099bcb6c15",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "tabelaBuscar"
+     },
+     {
+      "name": "expandContainerObject",
+      "type": "HtmlTarget",
+      "value": ""
+     },
+     {
+      "name": "listeners",
+      "type": "Listeners",
+      "value": "[]"
+     },
+     {
+      "name": "oLanguage",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "language",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "colFormats",
+      "type": "ColFormatsArray",
+      "value": "[]"
+     },
+     {
+      "name": "colHeaders",
+      "type": "ColHeadersArray",
+      "value": "[\"Código\",\"Nome\",\"Empresa\",\"País\"]"
+     },
+     {
+      "name": "colSortable",
+      "type": "ColSortableArray",
+      "value": "[]"
+     },
+     {
+      "name": "colTypes",
+      "type": "colTypesCustom",
+      "value": "[]"
+     },
+     {
+      "name": "colWidths",
+      "type": "ColWidthsArray",
+      "value": "[]"
+     },
+     {
+      "name": "expandParameters",
+      "type": "ExpandParameters",
+      "value": "[]"
+     },
+     {
+      "name": "parameters",
+      "type": "ValuesArray",
+      "value": "[]"
+     },
+     {
+      "name": "displayLength",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "expandOnClick",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "filter",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "info",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "lengthChange",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "paginate",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "sort",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "colSearchable",
+      "type": "ColSearchableArray",
+      "value": "[]"
+     },
+     {
+      "name": "drawCallback",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "dataSource",
+      "type": "Datasource",
+      "value": "transBuscar"
+     },
+     {
+      "name": "sDom",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "sortBy",
+      "type": "SortByArray",
+      "value": "[]"
+     },
+     {
+      "name": "priority",
+      "type": "Integer",
+      "value": 5
+     },
+     {
+      "name": "refreshPeriod",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "paginationType",
+      "type": "PaginationType",
+      "value": "simple_numbers"
+     },
+     {
+      "name": "tableStyle",
+      "type": "TableStyle",
+      "value": "bootstrap"
+     },
+     {
+      "name": "htmlObject",
+      "type": "HtmlObject",
+      "value": "${h:tabela}"
+     },
+     {
+      "name": "executeAtStart",
+      "type": "Boolean",
+      "value": "true"
+     },
+     {
+      "name": "paginateServerside",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "preExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postExecution",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postFetch",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "preChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "postChange",
+      "type": "JavaScript",
+      "value": ""
+     },
+     {
+      "name": "extraOptions",
+      "type": "ExtraOptionsArray",
+      "value": "[]"
+     },
+     {
+      "name": "tooltip",
+      "type": "Html",
+      "value": ""
+     },
+     {
+      "name": "clickAction",
+      "type": "JavaScript",
+      "value": ""
+     }
+    ],
+    "rowName": "Table Component",
+    "type": "ComponentsTable",
+    "typeDesc": "table Component"
+   },
+   {
+    "id": "GENERIC",
+    "name": "Generic",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "type": "Label",
+      "value": "Generic"
+     }
+    ],
+    "type": "Label",
+    "typeDesc": "<i>Group</i>"
+   },
+   {
+    "id": "fa89f739-f754-7999-aa46-f2fb2a1f9aae",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "cadCod"
+     },
+     {
+      "name": "propertyValue",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "parameterViewRole",
+      "type": "parameterViewRoleCustom",
+      "value": "unused"
+     },
+     {
+      "name": "bookmarkable",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "public",
+      "type": "Boolean",
+      "value": "false"
+     }
+    ],
+    "rowName": "Simple Parameter",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter"
+   },
+   {
+    "id": "2b67391a-750f-105c-2121-63f4b1e872bd",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "cadNome"
+     },
+     {
+      "name": "propertyValue",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "parameterViewRole",
+      "type": "parameterViewRoleCustom",
+      "value": "unused"
+     },
+     {
+      "name": "bookmarkable",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "public",
+      "type": "Boolean",
+      "value": "false"
+     }
+    ],
+    "rowName": "Simple Parameter",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter"
+   },
+   {
+    "id": "d60f259b-85dc-e645-264d-a49f972a84d1",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "cadEmpresa"
+     },
+     {
+      "name": "propertyValue",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "parameterViewRole",
+      "type": "parameterViewRoleCustom",
+      "value": "unused"
+     },
+     {
+      "name": "bookmarkable",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "public",
+      "type": "Boolean",
+      "value": "false"
+     }
+    ],
+    "rowName": "Simple Parameter",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter"
+   },
+   {
+    "id": "cd1ea5f1-3147-79d6-ba10-4c96141edbae",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "cadPais"
+     },
+     {
+      "name": "propertyValue",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "parameterViewRole",
+      "type": "parameterViewRoleCustom",
+      "value": "unused"
+     },
+     {
+      "name": "bookmarkable",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "public",
+      "type": "Boolean",
+      "value": "false"
+     }
+    ],
+    "rowName": "Simple Parameter",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter"
+   },
+   {
+    "id": "fee00e26-0e0f-6056-cb78-59e982589405",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "upCod"
+     },
+     {
+      "name": "propertyValue",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "parameterViewRole",
+      "type": "parameterViewRoleCustom",
+      "value": "unused"
+     },
+     {
+      "name": "bookmarkable",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "public",
+      "type": "Boolean",
+      "value": "false"
+     }
+    ],
+    "rowName": "Simple Parameter",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter"
+   },
+   {
+    "id": "80d4376f-5de6-d7de-12ea-87b97d602894",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "upNome"
+     },
+     {
+      "name": "propertyValue",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "parameterViewRole",
+      "type": "parameterViewRoleCustom",
+      "value": "unused"
+     },
+     {
+      "name": "bookmarkable",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "public",
+      "type": "Boolean",
+      "value": "false"
+     }
+    ],
+    "rowName": "Simple Parameter",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter"
+   },
+   {
+    "id": "f705d9ba-0848-6aa3-aa5e-aa4336caf995",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "upEmpresa"
+     },
+     {
+      "name": "propertyValue",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "parameterViewRole",
+      "type": "parameterViewRoleCustom",
+      "value": "unused"
+     },
+     {
+      "name": "bookmarkable",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "public",
+      "type": "Boolean",
+      "value": "false"
+     }
+    ],
+    "rowName": "Simple Parameter",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter"
+   },
+   {
+    "id": "6506017e-59c0-189a-4094-04bd4b0912ea",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "upPais"
+     },
+     {
+      "name": "propertyValue",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "parameterViewRole",
+      "type": "parameterViewRoleCustom",
+      "value": "unused"
+     },
+     {
+      "name": "bookmarkable",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "public",
+      "type": "Boolean",
+      "value": "false"
+     }
+    ],
+    "rowName": "Simple Parameter",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter"
+   },
+   {
+    "id": "f50acfd5-6105-67ce-7b39-e1828f1d1007",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "delCod"
+     },
+     {
+      "name": "propertyValue",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "parameterViewRole",
+      "type": "parameterViewRoleCustom",
+      "value": "unused"
+     },
+     {
+      "name": "bookmarkable",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "public",
+      "type": "Boolean",
+      "value": "false"
+     }
+    ],
+    "rowName": "Simple Parameter",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter"
+   }
+  ]
+ },
+ "datasources": {
+  "rows": [
+   {
+    "id": "SQL",
+    "name": "SQL Queries",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "type": "Label",
+      "value": "SQL Queries"
+     }
+    ],
+    "type": "Label",
+    "typeDesc": "<i>Group</i>"
+   },
+   {
+    "id": "0a56c773-c21a-33cb-c9aa-716d1c31731a",
+    "meta": "CDA",
+    "meta_conntype": "sql.jndi",
+    "meta_datype": "sql",
+    "parent": "SQL",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "dummy"
+     },
+     {
+      "name": "access",
+      "type": "Access",
+      "value": "public"
+     },
+     {
+      "name": "jndi",
+      "type": "Jndi",
+      "value": ""
+     },
+     {
+      "name": "query",
+      "type": "SqlQuery",
+      "value": ""
+     },
+     {
+      "name": "parameters",
+      "type": "CdaParameters",
+      "value": "[]"
+     },
+     {
+      "name": "cdacalculatedcolumns",
+      "type": "CdaCalculatedColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "cdacolumns",
+      "type": "CdaColumnsArray",
+      "value": "[]"
+     },
+     {
+      "name": "output",
+      "type": "IndexArray",
+      "value": "[]"
+     },
+     {
+      "name": "outputMode",
+      "type": "OutputMode",
+      "value": "include"
+     },
+     {
+      "name": "cacheKeys",
+      "type": "CacheKeysValues",
+      "value": "[]"
+     },
+     {
+      "name": "cacheDuration",
+      "type": "Integer",
+      "value": 3600
+     },
+     {
+      "name": "cache",
+      "type": "Boolean",
+      "value": "true"
+     }
+    ],
+    "type": "Componentssql_sqlJndi",
+    "typeDesc": "sql over sqlJndi"
+   },
+   {
+    "id": "CRUDCLIENT_CPKENDPOINTS",
+    "name": "CRUDCLIENT Endpoints",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "type": "Label",
+      "value": "CRUDCLIENT Endpoints"
+     }
+    ],
+    "type": "Label",
+    "typeDesc": "<i>Group</i>"
+   },
+   {
+    "id": "77ee4a04-6615-996c-c2ac-69f21ace128a",
+    "meta": "CPK",
+    "meta_endpoint": "kettlejobCrud",
+    "meta_pluginId": "CRUDClient",
+    "parent": "CRUDCLIENT_CPKENDPOINTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "kettlejob"
+     },
+     {
+      "name": "stepName",
+      "type": "String",
+      "value": "OUTPUT"
+     },
+     {
+      "name": "kettleOutput",
+      "type": "kettleOutputCustom",
+      "value": "Inferred"
+     }
+    ],
+    "rowName": "kettlejobCrud Endpoint",
+    "type": "ComponentsCRUDClient_kettlejobCrud_CPKENDPOINT",
+    "typeDesc": "kettlejobCrud Endpoint"
+   },
+   {
+    "id": "daa44117-3408-c5c6-ebea-6c44048e0591",
+    "meta": "CPK",
+    "meta_endpoint": "kettlejobAtualizar",
+    "meta_pluginId": "CRUDClient",
+    "parent": "CRUDCLIENT_CPKENDPOINTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "jobAtualizar"
+     },
+     {
+      "name": "stepName",
+      "type": "String",
+      "value": "OUTPUT"
+     },
+     {
+      "name": "kettleOutput",
+      "type": "kettleOutputCustom",
+      "value": "Inferred"
+     }
+    ],
+    "rowName": "kettlejobAtualizar Endpoint",
+    "type": "ComponentsCRUDClient_kettlejobAtualizar_CPKENDPOINT",
+    "typeDesc": "kettlejobAtualizar Endpoint"
+   },
+   {
+    "id": "b0933016-4dd0-67c2-cfd6-177fe1077951",
+    "meta": "CPK",
+    "meta_endpoint": "kettleJobDelete",
+    "meta_pluginId": "CRUDClient",
+    "parent": "CRUDCLIENT_CPKENDPOINTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "jobDeletar"
+     },
+     {
+      "name": "stepName",
+      "type": "String",
+      "value": "OUTPUT"
+     },
+     {
+      "name": "kettleOutput",
+      "type": "kettleOutputCustom",
+      "value": "Inferred"
+     }
+    ],
+    "rowName": "kettleJobDelete Endpoint",
+    "type": "ComponentsCRUDClient_kettleJobDelete_CPKENDPOINT",
+    "typeDesc": "kettleJobDelete Endpoint"
+   },
+   {
+    "id": "9f3ce662-ac8f-785f-51f8-65adfe494582",
+    "meta": "CPK",
+    "meta_endpoint": "kettleTransBuscar",
+    "meta_pluginId": "CRUDClient",
+    "parent": "CRUDCLIENT_CPKENDPOINTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "transBuscar"
+     },
+     {
+      "name": "stepName",
+      "type": "String",
+      "value": "OUTPUT"
+     },
+     {
+      "name": "kettleOutput",
+      "type": "kettleOutputCustom",
+      "value": "Inferred"
+     }
+    ],
+    "rowName": "kettleTransBuscar Endpoint",
+    "type": "ComponentsCRUDClient_kettleTransBuscar_CPKENDPOINT",
+    "typeDesc": "kettleTransBuscar Endpoint"
+   },
+   {
+    "id": "28cd1c8b-1a5b-eaa8-c099-3bfe3f21f345",
+    "meta": "CPK",
+    "meta_endpoint": "kettleJobBuscar",
+    "meta_pluginId": "CRUDClient",
+    "parent": "CRUDCLIENT_CPKENDPOINTS",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "jobBuscar"
+     },
+     {
+      "name": "stepName",
+      "type": "String",
+      "value": "OUTPUT"
+     },
+     {
+      "name": "kettleOutput",
+      "type": "kettleOutputCustom",
+      "value": "Inferred"
+     }
+    ],
+    "rowName": "kettleJobBuscar Endpoint",
+    "type": "ComponentsCRUDClient_kettleJobBuscar_CPKENDPOINT",
+    "typeDesc": "kettleJobBuscar Endpoint"
+   }
+  ]
+ },
+ "filename": "/system/CRUDClient/dashboards/Principal.cdfde",
+ "layout": {
+  "rows": [
+   {
+    "id": "0a4a5d26-4b1e-dd19-963c-6d8d76bc6754",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "custom"
+     },
+     {
+      "name": "resourceCode",
+      "type": "Resource",
+      "value": ".space{\n    margin-top:20px;    \n} \n#btn_casdastro{\n    margin-top:20px;\n    margin-left:35%;\n} \n#btn_atualizar_up{\n    margin-top:20px;\n    margin-left:35%;\n} \n#btn_deletar_del{\n    margin-top:20px;\n    margin-left:35%;\n} \n\n#dCadastro{\n    width:50%;\n    margin-left:25%;\n} \n#dAtualizar{\n    width:50%;\n    margin-left:25%;\n} \n#dDeletar{\n    width:50%;\n    margin-left:25%;\n} \n#dBuscar{\n    padding-top:20px;\n} \n\n "
+     },
+     {
+      "name": "resourceType",
+      "type": "Label",
+      "value": "Css"
+     }
+    ],
+    "type": "LayoutResourceCode",
+    "typeDesc": "Resource"
+   },
+   {
+    "id": "75fd4ad1-d3c7-c65f-db10-510032f2f6d4",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "codJs"
+     },
+     {
+      "name": "resourceCode",
+      "type": "Resource",
+      "value": "window.onload = function (){\n    document.getElementById('dCadastro').style.display = \"none\";\n    document.getElementById('dAtualizar').style.display = \"none\";\n    document.getElementById('dDeletar').style.display = \"none\";\n    document.getElementById('dBuscar').style.display = \"none\";\n} \n\n\nfunction openForm (pId){\n\n    if (pId === \"cadastro\"){\n        document.getElementById('dCadastro').style.display = \"block\";\n        document.getElementById('dAtualizar').style.display = \"none\";\n        document.getElementById('dDeletar').style.display = \"none\";\n        document.getElementById('dBuscar').style.display = \"none\";\n    } else if (pId === \"atualizar\"){\n        document.getElementById('dCadastro').style.display = \"none\";\n        document.getElementById('dAtualizar').style.display = \"block\";\n        document.getElementById('dDeletar').style.display = \"none\";\n        document.getElementById('dBuscar').style.display = \"none\";\n    }else  if (pId === \"deletar\"){\n        document.getElementById('dCadastro').style.display = \"none\";\n        document.getElementById('dAtualizar').style.display = \"none\";\n        document.getElementById('dDeletar').style.display = \"block\";\n        document.getElementById('dBuscar').style.display = \"none\";\n    }else{\n        document.getElementById('dCadastro').style.display = \"none\";\n        document.getElementById('dAtualizar').style.display = \"none\";\n        document.getElementById('dDeletar').style.display = \"none\";\n        document.getElementById('dBuscar').style.display = \"block\";\n    }\n} "
+     },
+     {
+      "name": "resourceType",
+      "type": "Label",
+      "value": "Javascript"
+     }
+    ],
+    "type": "LayoutResourceCode",
+    "typeDesc": "Resource"
+   },
+   {
+    "id": "223d0c9e-f2c6-db57-b7f7-da0e8e53a64c",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "header"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "204ffa9b-19b5-35a0-21fd-ed41af1af8a9",
+    "parent": "223d0c9e-f2c6-db57-b7f7-da0e8e53a64c",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "col"
+     },
+     {
+      "name": "columnSpan",
+      "type": "Integer",
+      "value": "10"
+     },
+     {
+      "name": "columnPrepend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnAppend",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "columnPrependTop",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnAppendBottom",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "columnBigBorder",
+      "type": "Boolean",
+      "value": "false"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutColumn",
+    "typeDesc": "Column"
+   },
+   {
+    "id": "e3a2812b-ff05-51e2-e0a9-4c4a46452931",
+    "parent": "204ffa9b-19b5-35a0-21fd-ed41af1af8a9",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "code"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "\r\n<img src=\"https://d6xfpzo6h49n1.cloudfront.net/X2slWZel8sODnM79hl5WhR3Jmv8=/fit-in/0x60/https://d2vvqscadf4c1f.cloudfront.net/qVTOaqAQmu17M13ZDZhA_logoit4biz-google-play_512x512.png\">\r\n<div class=\"page-header col-md-12\">\r\n  <h1>Plugin Rotina Cliente <small>crud de clientes</small></h1>\r\n</div>\r\n\r\n<div class=\"alert alert-info col-md-12\" role=\"alert\">\r\n <h6>Selecione um opção abaixo:</h3>\r\n</div> "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "63d5525c-130e-e0a7-3a74-47e62a883623",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutSpace",
+    "typeDesc": "Space"
+   },
+   {
+    "id": "604cd29a-23e0-6b64-8bdb-2f43f81f9d61",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "body"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   },
+   {
+    "id": "58a5993c-628f-96a8-ed1d-d453a6dd7869",
+    "parent": "604cd29a-23e0-6b64-8bdb-2f43f81f9d61",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "buttom"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "type": "String",
+      "value": "10"
+     },
+     {
+      "name": "bootstrapSmall",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "bootstrapMedium",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "bootstrapLarge",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "bootstrapCssClass",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column"
+   },
+   {
+    "id": "17230b9b-c1ca-f182-a2f8-ec33b072c364",
+    "parent": "58a5993c-628f-96a8-ed1d-d453a6dd7869",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": ""
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "<div class=\"btn-group btn-group-justified\" role=\"group\" aria-label=\"...\">\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"cadastrar\" onclick=\"openForm('cadastro');\">Cadastrar Cliente</button>\r\n    </div>\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"atualizar\" onclick=\"openForm('atualizar');\">Atualiza Cadastro</button>\r\n    </div>\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"deletar\" onclick=\"openForm('deletar');\">Deletar Cadastro</button>\r\n    </div>\r\n    <div class=\"btn-group\" role=\"group\">\r\n    <button type=\"button\" class=\"btn btn-default\" id=\"buscar\" onclick=\"openForm('buscar');\">Buscar Cliente</button>\r\n    </div>\r\n </div> "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "3389f9f6-edb7-752d-377f-d1c39da5042c",
+    "parent": "604cd29a-23e0-6b64-8bdb-2f43f81f9d61",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "form"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "type": "String",
+      "value": "10"
+     },
+     {
+      "name": "bootstrapSmall",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "bootstrapMedium",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "bootstrapLarge",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "bootstrapCssClass",
+      "type": "String",
+      "value": ""
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column"
+   },
+   {
+    "id": "cb7117f6-ee24-8c60-f3e6-67a0846ec368",
+    "parent": "3389f9f6-edb7-752d-377f-d1c39da5042c",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "code"
+     },
+     {
+      "name": "html",
+      "type": "Html",
+      "value": "<div id=\"dCadastro\">\n    <div id=\"txt_codigo\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_nome\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_empresa\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_pais\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"btn_casdastro\" class=\"center col-md-12\"></div>\n</div>\n\n\n<div id=\"dAtualizar\">\n    <div id=\"txt_codigo_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_nome_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_empresa_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"txt_pais_up\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"btn_atualizar_up\" class=\"center col-md-12\"></div>\n</div>\n\n\n<div id=\"dDeletar\">\n    <div id=\"txt_codigo_del\" class=\"col-xs-12 space\"></div>\n    <br />\n    <div id=\"btn_deletar_del\" class=\"center col-md-12\"></div>\n</div>\n    \n    \n<div id=\"dBuscar\">\n    <div id=\"tabela\"></div>  \n</div>\n\n\n "
+     },
+     {
+      "name": "fontSize",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "color",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutHtml",
+    "typeDesc": "Html"
+   },
+   {
+    "id": "f45b5a7c-7aeb-9f0b-9f75-bfcba07805a1",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutSpace",
+    "typeDesc": "Space"
+   },
+   {
+    "id": "6a096c89-cf27-1a70-974f-db025750973c",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "type": "Id",
+      "value": "footer"
+     },
+     {
+      "name": "height",
+      "type": "Integer",
+      "value": ""
+     },
+     {
+      "name": "backgroundColor",
+      "type": "Color",
+      "value": ""
+     },
+     {
+      "name": "roundCorners",
+      "type": "RoundCorners",
+      "value": ""
+     },
+     {
+      "name": "textAlign",
+      "type": "TextAlign",
+      "value": ""
+     },
+     {
+      "name": "cssClass",
+      "type": "String",
+      "value": ""
+     }
+    ],
+    "type": "LayoutRow",
+    "typeDesc": "Row"
+   }
+  ],
+  "title": "Principal"
+ }
+}
