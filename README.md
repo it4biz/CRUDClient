@@ -36,6 +36,8 @@ Ktrs:
 * KettleTransBuscar
 * deleteData
 
+7) Edit the Plugin at App Builder and refresh the plugin to load all the changes in the ktrs of the plugin.
+
 
 # App Builder
 http://community.pentaho.com/projects/app-builder/
