@@ -96,14 +96,14 @@
   <notepads>
   </notepads>
   <connection>
-    <name>db_crud_cliente</name>
+    <name>clients</name>
     <server>localhost</server>
     <type>MYSQL</type>
     <access>Native</access>
     <database>clients</database>
     <port>3306</port>
     <username>root</username>
-    <password>Encrypted 2be98afc86aa7f288ae16a965d7c3fd89</password>
+    <password>Encrypted </password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -205,7 +205,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>db_crud_cliente</connection>
+    <connection>clients</connection>
     <schema/>
     <table>tb_clients</table>
     <commit>1000</commit>

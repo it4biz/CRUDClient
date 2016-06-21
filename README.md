@@ -10,6 +10,26 @@ https://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/
 
 3) Restart BI Server
 
+4) Create a database connection called clients into MySQL.
+
+5) Execute clients_db.sql 
+
+```
+CREATE SCHEMA `clients` ;
+
+CREATE TABLE tb_clients
+(
+  codigo BIGINT
+, nome VARCHAR(13)
+, empresa VARCHAR(13)
+, pais VARCHAR(13)
+)
+;
+
+
+
+```
+
 
 # App Builder
 http://community.pentaho.com/projects/app-builder/

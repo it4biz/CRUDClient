@@ -163,7 +163,7 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C&#x3a;&#x5c;opt&#x5c;biserver-ce&#x5c;pentaho-solutions&#x5c;system&#x5c;CRUDClient&#x5c;endpoints&#x5c;kettle&#x5c;deletarCliente.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;deletarCliente.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
