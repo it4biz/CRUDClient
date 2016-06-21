@@ -12,26 +12,30 @@ https://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/
 
 4) Create a database connection called clients into MySQL.
 
-5) Execute clients_db.sql 
+5) Execute clients_db.sql
 
 ```
-CREATE SCHEMA `clients` ;
 
-CREATE TABLE tb_clients
-(
-  codigo BIGINT
-, nome VARCHAR(13)
-, empresa VARCHAR(13)
-, pais VARCHAR(13)
-)
-;
-
+create database clients;
+use clients;
+create table tb_clients(
+ cod integer,
+    name varchar(200),
+    company varchar(100),
+    country varchar(100)
+);
 
 
 ```
+
+6) Change DB Password
+
+Ktrs:
+* registerData
+* updateData
+* KettleTransBuscar
+* deleteData
 
 
 # App Builder
 http://community.pentaho.com/projects/app-builder/
-
-
