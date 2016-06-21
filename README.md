@@ -11,4 +11,7 @@ https://sourceforge.net/projects/pentaho/files/Business%20Intelligence%20Server/
 3) Restart BI Server
 
 
+# App Builder
+http://community.pentaho.com/projects/app-builder/
+
 
