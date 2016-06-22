@@ -25,17 +25,19 @@ create table tb_clients(
 
 5) Change db password
 
-5.1) Open those files on PDI: registerData.ktr, updateData.ktr, deleteData.ktr, KettleTransBuscar.ktr.
-5.1.1) In registerData.ktr, go to step table ouput -> Connection -> Edit... -> Change the mysql password to yours.
-5.1.2) In updateData.ktr, go to step insert / update -> Connection -> Edit... -> Change the mysql password to yours.	
-5.1.3) In deleteData.ktr, go to step Delete -> Connection -> Edit... -> Change the mysql password to yours.
-5.1.4) In KettleTransBuscar.ktr, go to step table input -> Connection -> Edit... -> Change the mysql password to yours.
+5.1) Open those files on PDI: registerData.ktr, updateData.ktr, deleteData.ktr, KettleTransBuscar.ktr.<BR>
+
+5.1.1) In registerData.ktr, go to step table ouput -> Connection -> Edit... -> Change to your own MySQL password.<BR>
+5.1.2) In updateData.ktr, go to step insert / update -> Connection -> Edit... -> Change to your own MySQL password.<BR>	
+5.1.3) In deleteData.ktr, go to step Delete -> Connection -> Edit... -> Change to your own MySQL password.<BR>
+5.1.4) In KettleTransBuscar.ktr, go to step table input -> Connection -> Edit... -> Change to your own MySQL password<BR>
 
 6) Restart BI Server
 
-7) Enjoy the plugin.
-Obs.: 
-After any insert, update or delete with the plugin, we need to reload the plugin on Sparkl.
+7) Enjoy the plugin.<BR>
+
+Note:<BR>
+After any insert, update or delete using the plugin, we need to reload the plugin on App Builder.<BR>
 
 
 
