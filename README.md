@@ -28,7 +28,7 @@ create table tb_clients(
 5.1) Open those files on PDI: registerData.ktr, updateData.ktr, deleteData.ktr, KettleTransBuscar.ktr.<BR>
 
 5.1.1) In registerData.ktr, go to step table ouput -> Connection -> Edit... -> Change to your own MySQL password.<BR>
-5.1.2) In updateData.ktr, go to step insert / update -> Connection -> Edit... -> Change to your own MySQL password.<BR>	
+5.1.2) In updateData.ktr, go to step insert / update -> Connection -> Edit... -> Change to your own MySQL password.<BR>
 5.1.3) In deleteData.ktr, go to step Delete -> Connection -> Edit... -> Change to your own MySQL password.<BR>
 5.1.4) In KettleTransBuscar.ktr, go to step table input -> Connection -> Edit... -> Change to your own MySQL password<BR>
 
